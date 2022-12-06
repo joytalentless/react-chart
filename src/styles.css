@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.label {
+  display: none;
+}
+@media (min-width: 700px) {
+  .label {
+    display: block;
+  }
+}
+
+.label2 {
+  display: flex;
+}
+@media (min-width: 700px) {
+  .label2 {
+    display: none;
+  }
+}
